@@ -9,20 +9,6 @@ header {
     z-index: -1;
 }
 
-/*header::before {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    min-height: 100%;*/
-/*    min-width: 100% ;*/
-/*    width: 100%;*/
-/*    z-index: -2;*/
-/*    border: 3px solid black;*/
-/*    box-shadow: 0px 0px 10px 6px #000000;*/
-/*}*/
 /*************************************************************
   SECTIONS
 **************************************************************/
@@ -43,7 +29,6 @@ section {
     top: 0; left: 0; right: 0; bottom: 0;
     display: block;
     background: url('img/orca.jpg') top center;
-    /*background-size: cover;*/
     background-size: 100%;
     background-repeat: no-repeat;
     transform: translateZ(-.5px) translate(0, 10%) scale(2);
@@ -65,12 +50,11 @@ section {
 }
 
 .cachalote::before {
-    content: '';
+    content:  '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     display: block;
     background: url('img/cachalote.jpg') top center;
-    /*background-size: cover;*/
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -151,4 +135,20 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: screen;
     margin-bottom: 0 !important;
+}
+article{
+    background-position: bottom ;
+    background-color: rgb(255, 255, 255);
+    margin: 550px;
+    padding: 80px;
+    width: min-content;
+    backdrop-filter: blur(90px);
+    z-index: 2;
+}
+
+h2{
+    width: 550%;
+    padding: 30;
+    font-family: 'Lucida Console';
+
 }
