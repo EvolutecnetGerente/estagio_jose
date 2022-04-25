@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Bootstrap</title>
-    <!--    Gooole fontes - larto -->
+    <!--    Gooole fontes - lato -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link
@@ -27,7 +27,7 @@
 <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
     <div class="container py-3">
         <a href="#" class="navbar-brand primary-color">
-            <img src="curso_bootstrap_5/imovi/img/imovi-icon.png">
+            <img src="imovi/img/imovi-icon.png"/>
             <span>iMovi</span>
         </a>
         <button class="navbar-toggler"
@@ -49,7 +49,7 @@
                     <a href="#" class="nav-link primary-color">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link primary-color">Imóveis</a>
+                    <a href="#" class="nav-link primary-color">ImÃ³veis</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link primary-color">Contatos</a>
@@ -64,45 +64,47 @@
         <div class="carousel-indicators">
             <button
                     type="button"
+                    class="active"
                     data-bs-target="#slider"
                     data-bs-slide-to="0"
-                    aria-label="slide 1"
+                    aria-current="true"
+                    aria-label="Slide 1"
             ></button>
             <button
                     type="button"
                     data-bs-target="#slider"
                     data-bs-slide-to="1"
-                    aria-label="slide 2"
+                    aria-label="Slide 2"
             ></button>
             <button
                     type="button"
                     data-bs-target="#slider"
-                    data-bs-target-to="2"
-                    aria-label="slide 3"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
             ></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="curso_bootstrap_5/imovi/img/banner-1.jpg" alt="casa 1" class="d-block w-100" />
+                <img src="imovi/img/banner-1.jpg" alt="Casa 1" class="d-block w-100"/>
                 <div class="carousel-caption">
                     <h5>Casas planejadas</h5>
                     <a href="#" class="btn btn-dark">Ver Projetos</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="curso_bootstrap_5/imovi/img/banner-2.jpg" alt="casa 2" class="d-block w-100" />
+                <img src="/imovi/img/banner-2.jpg" alt="Casa 2" class="d-block w-100"/>
                 <div class="carousel-caption">
                     <h5>Projetos Complexos</h5>
                     <a href="#" class="btn btn-dark">Ver Projetos</a>
                 </div>
             </div>
             <div class="carousel-item">
-            <img src="curso_bootstrap_5/imovi/img/banner-3.jpg" alt="casa 3" class="d-block w-100" />
-            <div class="carousel-caption">
-                <h5>Projetos Inovadores</h5>
-                <a href="#" class="btn btn-dark">Ver Projetos</a>
+                <img src="/imovi/img/banner-3.jpg" alt="Casa 3" class="d-block w-100"/>
+                <div class="carousel-caption">
+                    <h5>Projetos Inovadores</h5>
+                    <a href="#" class="btn btn-dark">Ver Projetos</a>
+                </div>
             </div>
-        </div>
         </div>
     </div>
 </div>
