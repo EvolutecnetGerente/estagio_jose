@@ -10,5 +10,14 @@
         <property name="serverTimezone" value="America/Sao_Paulo" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="@127.0.0.1" uuid="774207ed-47f1-4f7a-9638-06cff55f3600">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="America/Sao_Paulo" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

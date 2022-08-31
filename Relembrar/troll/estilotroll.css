@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url("giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:100%;
+    max-width: 500px;
+    background-color: transparent;
+    padding: 35px;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+    transition: backdrop-filter 1s;
+}
+
+.text{
+    color: white;
+    position: relative;
+    top: 200px;
+    transition: top 1s;
+
+}
+.container:hover .text{
+    top:0;
+}
+
+.container:hover{
+    backdrop-filter: blur(10px);
+}

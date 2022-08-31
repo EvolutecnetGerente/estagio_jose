@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>pokémon</title>
+    <!--                      Bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.rtl.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Trabalhando com <span>HTML</span>, <span>CSS</span> e usando o
+        <span>JavaScript</span> para fazer consultas online.</h1>
+    <hr>
+    <div class="imagem">
+    <img src="img/pokemon-logo.png">
+    </div>
+    <form class="group-form">
+        <label>Nome ou número do Pokémon</label>
+        <input type="text" id="name" placeholder="Exemplo: Pikachu ou 25"
+               required>
+        <label>Shiny</label>
+            <input type="checkbox" name="shiny" id="shiny">
+        <label>Fêmea</label>
+        <input type="checkbox" name="femea" id="femea">
+        <input type="submit" value="BUSCAR">
+    </form>
+    <div id="imgPokemon">
+
+    </div>
+    <div id="content">
+        ...
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
